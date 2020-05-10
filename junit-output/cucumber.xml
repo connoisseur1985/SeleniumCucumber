@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="142.458253">
+<testcase classname="CRM Pro Add New Contact" name="Free CRM make a contact test" time="73.964878">
+<system-out><![CDATA[Given user is on home page..................................................passed
+When user clicks on cantacts link...........................................passed
+Then user clicks on new button..............................................passed
+Then user enters credentials................................................passed
+Then user clicks on save button.............................................passed
+And user closes the browser.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Pro Test" name="Register Page Test" time="44.132469">
+<system-out><![CDATA[Given user is on start page.................................................passed
+When user clicks on sign up link............................................passed
+Then user is navigated to register page.....................................passed
+Then window is closed.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM Pro Test" name="Free CRM login test" time="24.360906">
+<system-out><![CDATA[Given crmpro Login Page is opened...........................................passed
+When UserName and Password is entered.......................................passed
+And Login Button is clicked.................................................passed
+Then HomePage Opens.........................................................passed
+Then Browser is closed......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
